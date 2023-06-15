@@ -1,1 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* creating global variables for reuse  */
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* These were the initial codes that are mostly used in any website hence learn it and write it beforehand. */
+
+
+/* Top-banner */
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(/img/asset\ 24.png);
+    
+    
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+
+
+/* nav bar */
+
+.main-nav{
+    margin-top: 20px;
+/* To create a space between nav bar & top-banner */
+
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+    /* nav link ki jo width hogi wo 200px ho jyegi */
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+
+/* header section */
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.get-started-btn{
+    margin-top: 20px;
+}
+
+.header-right img{
+   width: 600px;
+}
+
+
+
+
+/* Companies Section */
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+}
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 47px;
+}
