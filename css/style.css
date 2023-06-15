@@ -175,6 +175,10 @@ header{
     text-align: center;
 }
 
+.features-card img{
+    width: 58px;
+}
+
 
 
 /* Big feature section */
@@ -293,7 +297,7 @@ header{
 
 footer{
     padding-block: 80px;
-    background-color: #cedff4;
+    background-color: #e0eaf6;
 }
 
 
@@ -312,5 +316,17 @@ footer{
 }
 
 
+
+/* Subfooter section */
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+}
 
 
