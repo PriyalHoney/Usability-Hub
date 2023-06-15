@@ -284,3 +284,33 @@ header{
     margin-top: 20px;
     color: white;
 }
+
+
+
+
+/* Footer */
+
+
+footer{
+    padding-block: 80px;
+    background-color: #cedff4;
+}
+
+
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.link-column{
+    
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 20px;
+    font-weight: 600;
+}
+
+
+
+
